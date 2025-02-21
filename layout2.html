@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>layout2</title>
+    <style type="text/css">
+        .contenedorTodo{
+            border: 1px;
+            width: 98%; min-width: 700px;
+            height: 99%; min-height: 600px;
+            position: absolute;
+            border-radius: 10px;
+            background-color: white;
+        }
+
+        .navegacion{
+            position: absolute;
+            width: 25%; min-width: 177px;
+            height: 99%;
+            left: auto;
+            right: auto;
+            border: 1px solid #000;
+            border-radius: 10px;
+            background-color: green;
+            opacity: 0.6; z-index: 10;
+        }
+
+        .rightpanel{
+            position: absolute;
+            width: 74%; min-width: 450px;
+            height: 99%;
+            left: 26%; right: auto;
+            border: 1px solid #000;
+            border-radius: 10px;
+            background-color: white;
+            opacity: 0.6; z-index: 3;
+            vertical-align: middle;
+        }
+
+        .header{
+            position: absolute;
+            left: 50%; top: 4%;
+            transform: translate(-50%,-50%);
+            width: 99%;
+            height: 6.5%; min-height: 48px;
+            border: 1px solid #000;
+            border-radius: 10px;
+            background-color: black;
+            opacity: 0.5; z-index: 10;
+        }
+
+        .contenido{
+            position: absolute;
+            left: 50%; top: 50%;
+            transform: translate(-50%,-50%);
+            width: 99%;
+            height: 83%; min-height: 400px;
+            border: 1px solid #000;
+            border-radius: 10px;
+            background-color: cyan;
+            opacity: 0.3; z-index: 10;
+            overflow: auto;
+        }
+
+        .footer{
+            position: absolute;
+            left: 50%; top: 96%;
+            transform: translate(-50%,-50%);
+            width: 99%;
+            height: 5.5%; min-height: 45px;
+            border: 1px solid #000;
+            border-radius: 10px;
+            background-color: black;
+            opacity: 0.5; z-index: 10;
+        }
+    </style>
+</head>
+<body>
+    <div class="contenedorTodo">
+        <div class="navegacion">
+        </div>
+
+        <div class="rightpanel">
+            <div class="header">
+            </div>
+
+            <div class="contenido">
+            </div>
+
+            <div class="footer">
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
